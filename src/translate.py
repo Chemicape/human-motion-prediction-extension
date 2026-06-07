@@ -18,6 +18,7 @@ import tensorflow as tf
 
 import data_utils
 import seq2seq_model
+import transformer_model
 
 # Learning
 tf.app.flags.DEFINE_float("learning_rate", .005, "Learning rate.")
@@ -28,6 +29,7 @@ tf.app.flags.DEFINE_integer("batch_size", 16, "Batch size to use during training
 tf.app.flags.DEFINE_integer("iterations", int(1e5), "Iterations to train for.")
 # Architecture
 tf.app.flags.DEFINE_string("architecture", "tied", "Seq2seq architecture to use: [basic, tied].")
+tf.app.flags.DEFINE_string("model_type", "rnn", "Model type to use: [rnn, transformer].")
 tf.app.flags.DEFINE_integer("size", 1024, "Size of each model layer.")
 tf.app.flags.DEFINE_integer("num_layers", 1, "Number of layers in the model.")
 tf.app.flags.DEFINE_integer("seq_length_in", 50, "Number of frames to feed into the encoder. 25 fps")
@@ -52,6 +54,7 @@ FLAGS = tf.app.flags.FLAGS
 train_dir = os.path.normpath(os.path.join( FLAGS.train_dir, FLAGS.action,
   'out_{0}'.format(FLAGS.seq_length_out),
   'iterations_{0}'.format(FLAGS.iterations),
+  FLAGS.model_type,
   FLAGS.architecture,
   FLAGS.loss_to_use,
   'omit_one_hot' if FLAGS.omit_one_hot else 'one_hot',
@@ -63,13 +66,23 @@ train_dir = os.path.normpath(os.path.join( FLAGS.train_dir, FLAGS.action,
 summaries_dir = os.path.normpath(os.path.join( train_dir, "log" )) # Directory for TB summaries
 
 def create_model(session, actions, sampling=False):
-  """Create translation model and initialize or load parameters in session."""
+  """Create motion prediction model and initialize or load parameters."""
 
-  model = seq2seq_model.Seq2SeqModel(
+  if FLAGS.model_type == "rnn":
+    model_class = seq2seq_model.Seq2SeqModel
+  elif FLAGS.model_type == "transformer":
+    model_class = transformer_model.TransformerModel
+  else:
+    raise ValueError("Unknown model_type: %s" % FLAGS.model_type)
+
+  model_seq_in = FLAGS.seq_length_in if not sampling else 50
+  model_seq_out = FLAGS.seq_length_out if not sampling else 100
+
+  model = model_class(
       FLAGS.architecture,
-      FLAGS.seq_length_in if not sampling else 50,
-      FLAGS.seq_length_out if not sampling else 100,
-      FLAGS.size, # hidden layer size
+      model_seq_in,
+      model_seq_out,
+      FLAGS.size,
       FLAGS.num_layers,
       FLAGS.max_gradient_norm,
       FLAGS.batch_size,
@@ -77,7 +90,7 @@ def create_model(session, actions, sampling=False):
       FLAGS.learning_rate_decay_factor,
       summaries_dir,
       FLAGS.loss_to_use if not sampling else "sampling_based",
-      len( actions ),
+      len(actions),
       not FLAGS.omit_one_hot,
       FLAGS.residual_velocities,
       dtype=tf.float32)

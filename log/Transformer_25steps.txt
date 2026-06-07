@@ -1,0 +1,1041 @@
+step 1000; step_loss: 0.3414
+step 1010; step_loss: 0.3259
+step 1020; step_loss: 0.2962
+step 1030; step_loss: 0.3364
+step 1040; step_loss: 0.3489
+step 1050; step_loss: 0.4032
+step 1060; step_loss: 0.4289
+step 1070; step_loss: 0.3329
+step 1080; step_loss: 0.3158
+step 1090; step_loss: 0.3164
+step 1100; step_loss: 0.3451
+step 1110; step_loss: 0.3746
+step 1120; step_loss: 0.4633
+step 1130; step_loss: 0.5740
+step 1140; step_loss: 0.3673
+step 1150; step_loss: 0.3297
+step 1160; step_loss: 0.2783
+step 1170; step_loss: 0.3325
+step 1180; step_loss: 0.3398
+step 1190; step_loss: 0.4613
+step 1200; step_loss: 0.2876
+step 1210; step_loss: 0.3243
+step 1220; step_loss: 0.3461
+step 1230; step_loss: 0.3603
+step 1240; step_loss: 0.3820
+step 1250; step_loss: 0.3651
+step 1260; step_loss: 0.2810
+step 1270; step_loss: 0.2950
+step 1280; step_loss: 0.2750
+step 1290; step_loss: 0.2832
+step 1300; step_loss: 0.2706
+step 1310; step_loss: 0.3458
+step 1320; step_loss: 0.3410
+step 1330; step_loss: 0.3346
+step 1340; step_loss: 0.3331
+step 1350; step_loss: 0.3637
+step 1360; step_loss: 0.2624
+step 1370; step_loss: 0.4028
+step 1380; step_loss: 0.3272
+step 1390; step_loss: 0.3063
+step 1400; step_loss: 0.3880
+step 1410; step_loss: 0.2850
+step 1420; step_loss: 0.2825
+step 1430; step_loss: 0.2951
+step 1440; step_loss: 0.3544
+step 1450; step_loss: 0.3076
+step 1460; step_loss: 0.2594
+step 1470; step_loss: 0.3335
+step 1480; step_loss: 0.6194
+step 1490; step_loss: 0.3035
+step 1500; step_loss: 0.2459
+step 1510; step_loss: 0.3596
+step 1520; step_loss: 0.3377
+step 1530; step_loss: 0.3149
+step 1540; step_loss: 0.2591
+step 1550; step_loss: 0.3321
+step 1560; step_loss: 0.3602
+step 1570; step_loss: 0.2449
+step 1580; step_loss: 0.3219
+step 1590; step_loss: 0.2454
+step 1600; step_loss: 0.2829
+step 1610; step_loss: 0.2780
+step 1620; step_loss: 0.3022
+step 1630; step_loss: 0.3047
+step 1640; step_loss: 0.3097
+step 1650; step_loss: 0.3576
+step 1660; step_loss: 0.2713
+step 1670; step_loss: 0.2880
+step 1680; step_loss: 0.3152
+step 1690; step_loss: 0.3310
+step 1700; step_loss: 0.2687
+step 1710; step_loss: 0.2764
+step 1720; step_loss: 0.4903
+step 1730; step_loss: 0.2602
+step 1740; step_loss: 0.3506
+step 1750; step_loss: 0.3395
+step 1760; step_loss: 0.2897
+step 1770; step_loss: 0.2741
+step 1780; step_loss: 0.3353
+step 1790; step_loss: 0.2581
+step 1800; step_loss: 0.3318
+step 1810; step_loss: 0.3238
+step 1820; step_loss: 0.3078
+step 1830; step_loss: 0.2521
+step 1840; step_loss: 0.3205
+step 1850; step_loss: 0.4151
+step 1860; step_loss: 0.2863
+step 1870; step_loss: 0.3086
+step 1880; step_loss: 0.2876
+step 1890; step_loss: 0.3202
+step 1900; step_loss: 0.2295
+step 1910; step_loss: 0.3009
+step 1920; step_loss: 0.3276
+step 1930; step_loss: 0.2862
+step 1940; step_loss: 0.2833
+step 1950; step_loss: 0.3387
+step 1960; step_loss: 0.2746
+step 1970; step_loss: 0.2633
+step 1980; step_loss: 0.3208
+step 1990; step_loss: 0.2680
+
+milliseconds     |    80 |   160 |   320 |   400 |   560 |  1000 |
+walking          | 0.372 | 0.619 | 0.834 | 0.939 | 1.108 | 1.560 |
+
+============================
+Global step:         2000
+Learning rate:       0.0005
+Step-time (ms):     37.6048
+Train loss avg:      0.3265
+--------------------------
+Val loss:            0.5652
+srnn loss:           0.4607
+============================
+
+Saving the model...
+done in 189.31 ms
+step 2000; step_loss: 0.2198
+step 2010; step_loss: 0.2311
+step 2020; step_loss: 0.3163
+step 2030; step_loss: 0.2189
+step 2040; step_loss: 0.2994
+step 2050; step_loss: 0.3188
+step 2060; step_loss: 0.2926
+step 2070; step_loss: 0.2635
+step 2080; step_loss: 0.2862
+step 2090; step_loss: 0.2791
+step 2100; step_loss: 0.3334
+step 2110; step_loss: 0.2535
+step 2120; step_loss: 0.2692
+step 2130; step_loss: 0.2729
+step 2140; step_loss: 0.2532
+step 2150; step_loss: 0.2275
+step 2160; step_loss: 0.3694
+step 2170; step_loss: 0.3361
+step 2180; step_loss: 0.2157
+step 2190; step_loss: 0.3338
+step 2200; step_loss: 0.4209
+step 2210; step_loss: 0.2797
+step 2220; step_loss: 0.2793
+step 2230; step_loss: 0.2082
+step 2240; step_loss: 0.3186
+step 2250; step_loss: 0.2178
+step 2260; step_loss: 0.2859
+step 2270; step_loss: 0.2863
+step 2280; step_loss: 0.2784
+step 2290; step_loss: 0.2406
+step 2300; step_loss: 0.2639
+step 2310; step_loss: 0.2487
+step 2320; step_loss: 0.2171
+step 2330; step_loss: 0.2827
+step 2340; step_loss: 0.2104
+step 2350; step_loss: 0.2808
+step 2360; step_loss: 0.2376
+step 2370; step_loss: 0.2455
+step 2380; step_loss: 0.2997
+step 2390; step_loss: 0.2401
+step 2400; step_loss: 0.2364
+step 2410; step_loss: 0.2994
+step 2420; step_loss: 0.2765
+step 2430; step_loss: 0.2789
+step 2440; step_loss: 0.2840
+step 2450; step_loss: 0.2658
+step 2460; step_loss: 0.2897
+step 2470; step_loss: 0.3205
+step 2480; step_loss: 0.2947
+step 2490; step_loss: 0.3123
+step 2500; step_loss: 0.2684
+step 2510; step_loss: 0.2874
+step 2520; step_loss: 0.2452
+step 2530; step_loss: 0.2756
+step 2540; step_loss: 0.3108
+step 2550; step_loss: 0.3335
+step 2560; step_loss: 0.2351
+step 2570; step_loss: 0.2122
+step 2580; step_loss: 0.2921
+step 2590; step_loss: 0.2517
+step 2600; step_loss: 0.2446
+step 2610; step_loss: 0.3023
+step 2620; step_loss: 0.2182
+step 2630; step_loss: 0.2373
+step 2640; step_loss: 0.2638
+step 2650; step_loss: 0.2401
+step 2660; step_loss: 0.2438
+step 2670; step_loss: 0.2606
+step 2680; step_loss: 0.2833
+step 2690; step_loss: 0.2862
+step 2700; step_loss: 0.2032
+step 2710; step_loss: 0.2950
+step 2720; step_loss: 0.3056
+step 2730; step_loss: 0.2913
+step 2740; step_loss: 0.2447
+step 2750; step_loss: 0.3008
+step 2760; step_loss: 0.2461
+step 2770; step_loss: 0.1953
+step 2780; step_loss: 0.2435
+step 2790; step_loss: 0.2564
+step 2800; step_loss: 0.2322
+step 2810; step_loss: 0.2433
+step 2820; step_loss: 0.2495
+step 2830; step_loss: 0.2385
+step 2840; step_loss: 0.2974
+step 2850; step_loss: 0.2286
+step 2860; step_loss: 0.2104
+step 2870; step_loss: 0.2783
+step 2880; step_loss: 0.2351
+step 2890; step_loss: 0.2583
+step 2900; step_loss: 0.2563
+step 2910; step_loss: 0.2921
+step 2920; step_loss: 0.2519
+step 2930; step_loss: 0.2838
+step 2940; step_loss: 0.2391
+step 2950; step_loss: 0.2180
+step 2960; step_loss: 0.2039
+step 2970; step_loss: 0.2387
+step 2980; step_loss: 0.1974
+step 2990; step_loss: 0.2185
+
+milliseconds     |    80 |   160 |   320 |   400 |   560 |  1000 |
+walking          | 0.365 | 0.599 | 0.766 | 0.853 | 1.031 | 1.520 |
+
+============================
+Global step:         3000
+Learning rate:       0.0005
+Step-time (ms):     37.7231
+Train loss avg:      0.2658
+--------------------------
+Val loss:            0.5326
+srnn loss:           0.4717
+============================
+
+Saving the model...
+done in 175.11 ms
+step 3000; step_loss: 0.2088
+step 3010; step_loss: 0.2309
+step 3020; step_loss: 0.1950
+step 3030; step_loss: 0.2315
+step 3040; step_loss: 0.2138
+step 3050; step_loss: 0.2277
+step 3060; step_loss: 0.2456
+step 3070; step_loss: 0.2837
+step 3080; step_loss: 0.2732
+step 3090; step_loss: 0.2610
+step 3100; step_loss: 0.2821
+step 3110; step_loss: 0.2526
+step 3120; step_loss: 0.3166
+step 3130; step_loss: 0.2811
+step 3140; step_loss: 0.1827
+step 3150; step_loss: 0.1921
+step 3160; step_loss: 0.2521
+step 3170; step_loss: 0.2210
+step 3180; step_loss: 0.2605
+step 3190; step_loss: 0.2258
+step 3200; step_loss: 0.1994
+step 3210; step_loss: 0.1835
+step 3220; step_loss: 0.1997
+step 3230; step_loss: 0.2698
+step 3240; step_loss: 0.2110
+step 3250; step_loss: 0.2039
+step 3260; step_loss: 0.3910
+step 3270; step_loss: 0.2084
+step 3280; step_loss: 0.2497
+step 3290; step_loss: 0.2837
+step 3300; step_loss: 0.2178
+step 3310; step_loss: 0.2159
+step 3320; step_loss: 0.2107
+step 3330; step_loss: 0.2514
+step 3340; step_loss: 0.2188
+step 3350; step_loss: 0.1835
+step 3360; step_loss: 0.1828
+step 3370; step_loss: 0.2581
+step 3380; step_loss: 0.2149
+step 3390; step_loss: 0.1803
+step 3400; step_loss: 0.2447
+step 3410; step_loss: 0.2328
+step 3420; step_loss: 0.2046
+step 3430; step_loss: 0.2428
+step 3440; step_loss: 0.2874
+step 3450; step_loss: 0.2236
+step 3460; step_loss: 0.1856
+step 3470; step_loss: 0.1771
+step 3480; step_loss: 0.2250
+step 3490; step_loss: 0.2478
+step 3500; step_loss: 0.1878
+step 3510; step_loss: 0.1790
+step 3520; step_loss: 0.2151
+step 3530; step_loss: 0.2565
+step 3540; step_loss: 0.1871
+step 3550; step_loss: 0.2302
+step 3560; step_loss: 0.1897
+step 3570; step_loss: 0.2320
+step 3580; step_loss: 0.2090
+step 3590; step_loss: 0.2014
+step 3600; step_loss: 0.1941
+step 3610; step_loss: 0.1991
+step 3620; step_loss: 0.1801
+step 3630; step_loss: 0.1930
+step 3640; step_loss: 0.2289
+step 3650; step_loss: 0.2113
+step 3660; step_loss: 0.1866
+step 3670; step_loss: 0.2310
+step 3680; step_loss: 0.2118
+step 3690; step_loss: 0.2179
+step 3700; step_loss: 0.2379
+step 3710; step_loss: 0.2256
+step 3720; step_loss: 0.2172
+step 3730; step_loss: 0.1953
+step 3740; step_loss: 0.3369
+step 3750; step_loss: 0.1735
+step 3760; step_loss: 0.2156
+step 3770; step_loss: 0.1809
+step 3780; step_loss: 0.2766
+step 3790; step_loss: 0.2201
+step 3800; step_loss: 0.2404
+step 3810; step_loss: 0.2058
+step 3820; step_loss: 0.2796
+step 3830; step_loss: 0.2067
+step 3840; step_loss: 0.2388
+step 3850; step_loss: 0.2132
+step 3860; step_loss: 0.1870
+step 3870; step_loss: 0.2466
+step 3880; step_loss: 0.2452
+step 3890; step_loss: 0.2283
+step 3900; step_loss: 0.1685
+step 3910; step_loss: 0.2265
+step 3920; step_loss: 0.2150
+step 3930; step_loss: 0.2110
+step 3940; step_loss: 0.1733
+step 3950; step_loss: 0.2433
+step 3960; step_loss: 0.2685
+step 3970; step_loss: 0.2026
+step 3980; step_loss: 0.2277
+step 3990; step_loss: 0.1807
+
+milliseconds     |    80 |   160 |   320 |   400 |   560 |  1000 |
+walking          | 0.347 | 0.547 | 0.720 | 0.807 | 0.999 | 1.430 |
+
+============================
+Global step:         4000
+Learning rate:       0.0005
+Step-time (ms):     37.3572
+Train loss avg:      0.2216
+--------------------------
+Val loss:            0.5589
+srnn loss:           0.4662
+============================
+
+Saving the model...
+done in 168.43 ms
+step 4000; step_loss: 0.1860
+step 4010; step_loss: 0.1950
+step 4020; step_loss: 0.1982
+step 4030; step_loss: 0.2396
+step 4040; step_loss: 0.2437
+step 4050; step_loss: 0.1869
+step 4060; step_loss: 0.2233
+step 4070; step_loss: 0.1628
+step 4080; step_loss: 0.2775
+step 4090; step_loss: 0.2281
+step 4100; step_loss: 0.1780
+step 4110; step_loss: 0.2118
+step 4120; step_loss: 0.1843
+step 4130; step_loss: 0.1778
+step 4140; step_loss: 0.2053
+step 4150; step_loss: 0.2093
+step 4160; step_loss: 0.1946
+step 4170; step_loss: 0.2054
+step 4180; step_loss: 0.2331
+step 4190; step_loss: 0.1593
+step 4200; step_loss: 0.2226
+step 4210; step_loss: 0.2782
+step 4220; step_loss: 0.1935
+step 4230; step_loss: 0.2347
+step 4240; step_loss: 0.1844
+step 4250; step_loss: 0.2471
+step 4260; step_loss: 0.2360
+step 4270; step_loss: 0.1818
+step 4280; step_loss: 0.1649
+step 4290; step_loss: 0.2474
+step 4300; step_loss: 0.2552
+step 4310; step_loss: 0.2084
+step 4320; step_loss: 0.1466
+step 4330; step_loss: 0.1597
+step 4340; step_loss: 0.1785
+step 4350; step_loss: 0.1794
+step 4360; step_loss: 0.1682
+step 4370; step_loss: 0.1803
+step 4380; step_loss: 0.1672
+step 4390; step_loss: 0.2719
+step 4400; step_loss: 0.1489
+step 4410; step_loss: 0.1881
+step 4420; step_loss: 0.1858
+step 4430; step_loss: 0.2446
+step 4440; step_loss: 0.1577
+step 4450; step_loss: 0.1912
+step 4460; step_loss: 0.1477
+step 4470; step_loss: 0.1983
+step 4480; step_loss: 0.1538
+step 4490; step_loss: 0.1746
+step 4500; step_loss: 0.2040
+step 4510; step_loss: 0.1634
+step 4520; step_loss: 0.1800
+step 4530; step_loss: 0.2428
+step 4540; step_loss: 0.1441
+step 4550; step_loss: 0.1589
+step 4560; step_loss: 0.1648
+step 4570; step_loss: 0.1638
+step 4580; step_loss: 0.1965
+step 4590; step_loss: 0.1752
+step 4600; step_loss: 0.2320
+step 4610; step_loss: 0.1671
+step 4620; step_loss: 0.1797
+step 4630; step_loss: 0.2780
+step 4640; step_loss: 0.1686
+step 4650; step_loss: 0.1966
+step 4660; step_loss: 0.1931
+step 4670; step_loss: 0.2998
+step 4680; step_loss: 0.2192
+step 4690; step_loss: 0.1779
+step 4700; step_loss: 0.1925
+step 4710; step_loss: 0.1928
+step 4720; step_loss: 0.1961
+step 4730; step_loss: 0.1730
+step 4740; step_loss: 0.2274
+step 4750; step_loss: 0.1806
+step 4760; step_loss: 0.2189
+step 4770; step_loss: 0.1875
+step 4780; step_loss: 0.1523
+step 4790; step_loss: 0.1939
+step 4800; step_loss: 0.1514
+step 4810; step_loss: 0.1648
+step 4820; step_loss: 0.1638
+step 4830; step_loss: 0.1610
+step 4840; step_loss: 0.1552
+step 4850; step_loss: 0.1684
+step 4860; step_loss: 0.1759
+step 4870; step_loss: 0.2302
+step 4880; step_loss: 0.2167
+step 4890; step_loss: 0.1760
+step 4900; step_loss: 0.1696
+step 4910; step_loss: 0.2378
+step 4920; step_loss: 0.1454
+step 4930; step_loss: 0.1666
+step 4940; step_loss: 0.1614
+step 4950; step_loss: 0.1545
+step 4960; step_loss: 0.2213
+step 4970; step_loss: 0.1646
+step 4980; step_loss: 0.1560
+step 4990; step_loss: 0.1248
+
+milliseconds     |    80 |   160 |   320 |   400 |   560 |  1000 |
+walking          | 0.335 | 0.516 | 0.688 | 0.771 | 0.945 | 1.354 |
+
+============================
+Global step:         5000
+Learning rate:       0.0005
+Step-time (ms):     37.6042
+Train loss avg:      0.1914
+--------------------------
+Val loss:            0.5726
+srnn loss:           0.4111
+============================
+
+Saving the model...
+done in 190.52 ms
+step 5000; step_loss: 0.1607
+step 5010; step_loss: 0.1776
+step 5020; step_loss: 0.1848
+step 5030; step_loss: 0.1795
+step 5040; step_loss: 0.1649
+step 5050; step_loss: 0.1728
+step 5060; step_loss: 0.1850
+step 5070; step_loss: 0.2230
+step 5080; step_loss: 0.1953
+step 5090; step_loss: 0.1685
+step 5100; step_loss: 0.1431
+step 5110; step_loss: 0.1546
+step 5120; step_loss: 0.1934
+step 5130; step_loss: 0.1987
+step 5140; step_loss: 0.1872
+step 5150; step_loss: 0.1677
+step 5160; step_loss: 0.1654
+step 5170; step_loss: 0.1344
+step 5180; step_loss: 0.1587
+step 5190; step_loss: 0.1721
+step 5200; step_loss: 0.1287
+step 5210; step_loss: 0.1173
+step 5220; step_loss: 0.1399
+step 5230; step_loss: 0.1610
+step 5240; step_loss: 0.1386
+step 5250; step_loss: 0.1690
+step 5260; step_loss: 0.1264
+step 5270; step_loss: 0.1444
+step 5280; step_loss: 0.1876
+step 5290; step_loss: 0.1761
+step 5300; step_loss: 0.1540
+step 5310; step_loss: 0.1925
+step 5320; step_loss: 0.1966
+step 5330; step_loss: 0.1540
+step 5340; step_loss: 0.1786
+step 5350; step_loss: 0.1929
+step 5360; step_loss: 0.1646
+step 5370; step_loss: 0.1643
+step 5380; step_loss: 0.1463
+step 5390; step_loss: 0.1115
+step 5400; step_loss: 0.1757
+step 5410; step_loss: 0.1367
+step 5420; step_loss: 0.1649
+step 5430; step_loss: 0.1918
+step 5440; step_loss: 0.1481
+step 5450; step_loss: 0.1038
+step 5460; step_loss: 0.1587
+step 5470; step_loss: 0.1219
+step 5480; step_loss: 0.1375
+step 5490; step_loss: 0.1475
+step 5500; step_loss: 0.1894
+step 5510; step_loss: 0.1489
+step 5520; step_loss: 0.1532
+step 5530; step_loss: 0.1934
+step 5540; step_loss: 0.1861
+step 5550; step_loss: 0.1649
+step 5560; step_loss: 0.2008
+step 5570; step_loss: 0.1286
+step 5580; step_loss: 0.1766
+step 5590; step_loss: 0.2128
+step 5600; step_loss: 0.1462
+step 5610; step_loss: 0.1899
+step 5620; step_loss: 0.2046
+step 5630; step_loss: 0.1377
+step 5640; step_loss: 0.1850
+step 5650; step_loss: 0.1706
+step 5660; step_loss: 0.1349
+step 5670; step_loss: 0.2083
+step 5680; step_loss: 0.1250
+step 5690; step_loss: 0.1305
+step 5700; step_loss: 0.1313
+step 5710; step_loss: 0.1420
+step 5720; step_loss: 0.1754
+step 5730; step_loss: 0.1859
+step 5740; step_loss: 0.1457
+step 5750; step_loss: 0.1215
+step 5760; step_loss: 0.1515
+step 5770; step_loss: 0.1826
+step 5780; step_loss: 0.1366
+step 5790; step_loss: 0.1385
+step 5800; step_loss: 0.1599
+step 5810; step_loss: 0.1632
+step 5820; step_loss: 0.1478
+step 5830; step_loss: 0.1732
+step 5840; step_loss: 0.1307
+step 5850; step_loss: 0.1434
+step 5860; step_loss: 0.1456
+step 5870; step_loss: 0.1914
+step 5880; step_loss: 0.1391
+step 5890; step_loss: 0.1472
+step 5900; step_loss: 0.1191
+step 5910; step_loss: 0.1753
+step 5920; step_loss: 0.1617
+step 5930; step_loss: 0.1436
+step 5940; step_loss: 0.1775
+step 5950; step_loss: 0.1733
+step 5960; step_loss: 0.1941
+step 5970; step_loss: 0.1313
+step 5980; step_loss: 0.1595
+step 5990; step_loss: 0.1265
+
+milliseconds     |    80 |   160 |   320 |   400 |   560 |  1000 |
+walking          | 0.325 | 0.498 | 0.698 | 0.777 | 0.928 | 1.324 |
+
+============================
+Global step:         6000
+Learning rate:       0.0005
+Step-time (ms):     37.2109
+Train loss avg:      0.1666
+--------------------------
+Val loss:            0.5347
+srnn loss:           0.4330
+============================
+
+Saving the model...
+done in 188.16 ms
+step 6000; step_loss: 0.1322
+step 6010; step_loss: 0.1481
+step 6020; step_loss: 0.1297
+step 6030; step_loss: 0.1352
+step 6040; step_loss: 0.1682
+step 6050; step_loss: 0.1354
+step 6060; step_loss: 0.2318
+step 6070; step_loss: 0.1380
+step 6080; step_loss: 0.1398
+step 6090; step_loss: 0.1787
+step 6100; step_loss: 0.1257
+step 6110; step_loss: 0.2009
+step 6120; step_loss: 0.1369
+step 6130; step_loss: 0.1440
+step 6140; step_loss: 0.1386
+step 6150; step_loss: 0.1340
+step 6160; step_loss: 0.1800
+step 6170; step_loss: 0.1102
+step 6180; step_loss: 0.1438
+step 6190; step_loss: 0.1152
+step 6200; step_loss: 0.1691
+step 6210; step_loss: 0.1590
+step 6220; step_loss: 0.1684
+step 6230; step_loss: 0.1174
+step 6240; step_loss: 0.1408
+step 6250; step_loss: 0.1178
+step 6260; step_loss: 0.1669
+step 6270; step_loss: 0.1395
+step 6280; step_loss: 0.1590
+step 6290; step_loss: 0.1295
+step 6300; step_loss: 0.1603
+step 6310; step_loss: 0.1507
+step 6320; step_loss: 0.1517
+step 6330; step_loss: 0.1605
+step 6340; step_loss: 0.0934
+step 6350; step_loss: 0.1390
+step 6360; step_loss: 0.1301
+step 6370; step_loss: 0.1621
+step 6380; step_loss: 0.1433
+step 6390; step_loss: 0.1336
+step 6400; step_loss: 0.1299
+step 6410; step_loss: 0.1217
+step 6420; step_loss: 0.1401
+step 6430; step_loss: 0.1609
+step 6440; step_loss: 0.1315
+step 6450; step_loss: 0.1322
+step 6460; step_loss: 0.1471
+step 6470; step_loss: 0.1334
+step 6480; step_loss: 0.1343
+step 6490; step_loss: 0.1700
+step 6500; step_loss: 0.1294
+step 6510; step_loss: 0.1309
+step 6520; step_loss: 0.1439
+step 6530; step_loss: 0.1243
+step 6540; step_loss: 0.1453
+step 6550; step_loss: 0.1869
+step 6560; step_loss: 0.1058
+step 6570; step_loss: 0.1028
+step 6580; step_loss: 0.1246
+step 6590; step_loss: 0.1791
+step 6600; step_loss: 0.1178
+step 6610; step_loss: 0.1062
+step 6620; step_loss: 0.1277
+step 6630; step_loss: 0.1707
+step 6640; step_loss: 0.1514
+step 6650; step_loss: 0.1397
+step 6660; step_loss: 0.1413
+step 6670; step_loss: 0.1307
+step 6680; step_loss: 0.1497
+step 6690; step_loss: 0.1203
+step 6700; step_loss: 0.1505
+step 6710; step_loss: 0.1307
+step 6720; step_loss: 0.1120
+step 6730; step_loss: 0.1185
+step 6740; step_loss: 0.1421
+step 6750; step_loss: 0.1532
+step 6760; step_loss: 0.1651
+step 6770; step_loss: 0.1623
+step 6780; step_loss: 0.1025
+step 6790; step_loss: 0.1159
+step 6800; step_loss: 0.1215
+step 6810; step_loss: 0.1156
+step 6820; step_loss: 0.1503
+step 6830; step_loss: 0.1068
+step 6840; step_loss: 0.1061
+step 6850; step_loss: 0.1067
+step 6860; step_loss: 0.1313
+step 6870; step_loss: 0.1732
+step 6880; step_loss: 0.1303
+step 6890; step_loss: 0.1315
+step 6900; step_loss: 0.1188
+step 6910; step_loss: 0.1245
+step 6920; step_loss: 0.1183
+step 6930; step_loss: 0.1613
+step 6940; step_loss: 0.1281
+step 6950; step_loss: 0.1574
+step 6960; step_loss: 0.1468
+step 6970; step_loss: 0.1232
+step 6980; step_loss: 0.1647
+step 6990; step_loss: 0.1183
+
+milliseconds     |    80 |   160 |   320 |   400 |   560 |  1000 |
+walking          | 0.324 | 0.499 | 0.697 | 0.794 | 0.996 | 1.495 |
+
+============================
+Global step:         7000
+Learning rate:       0.0005
+Step-time (ms):     37.2812
+Train loss avg:      0.1427
+--------------------------
+Val loss:            0.5522
+srnn loss:           0.4342
+============================
+
+Saving the model...
+done in 171.03 ms
+step 7000; step_loss: 0.1516
+step 7010; step_loss: 0.1073
+step 7020; step_loss: 0.1789
+step 7030; step_loss: 0.1481
+step 7040; step_loss: 0.1218
+step 7050; step_loss: 0.1279
+step 7060; step_loss: 0.1171
+step 7070; step_loss: 0.1436
+step 7080; step_loss: 0.1092
+step 7090; step_loss: 0.1605
+step 7100; step_loss: 0.1212
+step 7110; step_loss: 0.0984
+step 7120; step_loss: 0.1322
+step 7130; step_loss: 0.1107
+step 7140; step_loss: 0.1075
+step 7150; step_loss: 0.1815
+step 7160; step_loss: 0.1167
+step 7170; step_loss: 0.1434
+step 7180; step_loss: 0.1497
+step 7190; step_loss: 0.0911
+step 7200; step_loss: 0.1067
+step 7210; step_loss: 0.1410
+step 7220; step_loss: 0.1114
+step 7230; step_loss: 0.1241
+step 7240; step_loss: 0.1321
+step 7250; step_loss: 0.1236
+step 7260; step_loss: 0.1290
+step 7270; step_loss: 0.1272
+step 7280; step_loss: 0.1154
+step 7290; step_loss: 0.1394
+step 7300; step_loss: 0.1106
+step 7310; step_loss: 0.1304
+step 7320; step_loss: 0.1238
+step 7330; step_loss: 0.1629
+step 7340; step_loss: 0.1185
+step 7350; step_loss: 0.1009
+step 7360; step_loss: 0.0958
+step 7370; step_loss: 0.1489
+step 7380; step_loss: 0.1001
+step 7390; step_loss: 0.1619
+step 7400; step_loss: 0.1023
+step 7410; step_loss: 0.1543
+step 7420; step_loss: 0.1385
+step 7430; step_loss: 0.1349
+step 7440; step_loss: 0.2843
+step 7450; step_loss: 0.1250
+step 7460; step_loss: 0.1344
+step 7470; step_loss: 0.1388
+step 7480; step_loss: 0.1630
+step 7490; step_loss: 0.1525
+step 7500; step_loss: 0.1117
+step 7510; step_loss: 0.2336
+step 7520; step_loss: 0.1199
+step 7530; step_loss: 0.1102
+step 7540; step_loss: 0.1230
+step 7550; step_loss: 0.1385
+step 7560; step_loss: 0.1170
+step 7570; step_loss: 0.0987
+step 7580; step_loss: 0.1518
+step 7590; step_loss: 0.0949
+step 7600; step_loss: 0.1295
+step 7610; step_loss: 0.0943
+step 7620; step_loss: 0.2038
+step 7630; step_loss: 0.1044
+step 7640; step_loss: 0.1019
+step 7650; step_loss: 0.0872
+step 7660; step_loss: 0.1274
+step 7670; step_loss: 0.1266
+step 7680; step_loss: 0.1217
+step 7690; step_loss: 0.1172
+step 7700; step_loss: 0.1002
+step 7710; step_loss: 0.1029
+step 7720; step_loss: 0.2140
+step 7730; step_loss: 0.1223
+step 7740; step_loss: 0.0917
+step 7750; step_loss: 0.1096
+step 7760; step_loss: 0.0936
+step 7770; step_loss: 0.1598
+step 7780; step_loss: 0.1071
+step 7790; step_loss: 0.1223
+step 7800; step_loss: 0.1037
+step 7810; step_loss: 0.1014
+step 7820; step_loss: 0.0916
+step 7830; step_loss: 0.1157
+step 7840; step_loss: 0.1051
+step 7850; step_loss: 0.1042
+step 7860; step_loss: 0.1079
+step 7870; step_loss: 0.1200
+step 7880; step_loss: 0.1266
+step 7890; step_loss: 0.1277
+step 7900; step_loss: 0.1046
+step 7910; step_loss: 0.1037
+step 7920; step_loss: 0.1079
+step 7930; step_loss: 0.1402
+step 7940; step_loss: 0.1233
+step 7950; step_loss: 0.1569
+step 7960; step_loss: 0.0885
+step 7970; step_loss: 0.1298
+step 7980; step_loss: 0.1009
+step 7990; step_loss: 0.1389
+
+milliseconds     |    80 |   160 |   320 |   400 |   560 |  1000 |
+walking          | 0.307 | 0.469 | 0.683 | 0.780 | 0.943 | 1.360 |
+
+============================
+Global step:         8000
+Learning rate:       0.0005
+Step-time (ms):     37.5394
+Train loss avg:      0.1273
+--------------------------
+Val loss:            0.4658
+srnn loss:           0.3876
+============================
+
+Saving the model...
+done in 206.70 ms
+step 8000; step_loss: 0.0765
+step 8010; step_loss: 0.1507
+step 8020; step_loss: 0.1124
+step 8030; step_loss: 0.1258
+step 8040; step_loss: 0.1041
+step 8050; step_loss: 0.0967
+step 8060; step_loss: 0.1166
+step 8070; step_loss: 0.1310
+step 8080; step_loss: 0.1065
+step 8090; step_loss: 0.1223
+step 8100; step_loss: 0.1107
+step 8110; step_loss: 0.1657
+step 8120; step_loss: 0.1158
+step 8130; step_loss: 0.1647
+step 8140; step_loss: 0.0812
+step 8150; step_loss: 0.1054
+step 8160; step_loss: 0.1377
+step 8170; step_loss: 0.1042
+step 8180; step_loss: 0.1042
+step 8190; step_loss: 0.1078
+step 8200; step_loss: 0.0981
+step 8210; step_loss: 0.1573
+step 8220; step_loss: 0.0987
+step 8230; step_loss: 0.1048
+step 8240; step_loss: 0.0967
+step 8250; step_loss: 0.1215
+step 8260; step_loss: 0.1071
+step 8270; step_loss: 0.0931
+step 8280; step_loss: 0.1173
+step 8290; step_loss: 0.1151
+step 8300; step_loss: 0.1331
+step 8310; step_loss: 0.0961
+step 8320; step_loss: 0.1444
+step 8330; step_loss: 0.1130
+step 8340; step_loss: 0.1064
+step 8350; step_loss: 0.1068
+step 8360; step_loss: 0.0915
+step 8370; step_loss: 0.0786
+step 8380; step_loss: 0.1230
+step 8390; step_loss: 0.1103
+step 8400; step_loss: 0.1128
+step 8410; step_loss: 0.1237
+step 8420; step_loss: 0.1484
+step 8430; step_loss: 0.1172
+step 8440; step_loss: 0.1447
+step 8450; step_loss: 0.1119
+step 8460; step_loss: 0.1536
+step 8470; step_loss: 0.0982
+step 8480; step_loss: 0.1225
+step 8490; step_loss: 0.1405
+step 8500; step_loss: 0.0844
+step 8510; step_loss: 0.0988
+step 8520; step_loss: 0.0926
+step 8530; step_loss: 0.1269
+step 8540; step_loss: 0.0932
+step 8550; step_loss: 0.1010
+step 8560; step_loss: 0.1058
+step 8570; step_loss: 0.1183
+step 8580; step_loss: 0.1488
+step 8590; step_loss: 0.1372
+step 8600; step_loss: 0.1225
+step 8610; step_loss: 0.1020
+step 8620; step_loss: 0.1347
+step 8630; step_loss: 0.1457
+step 8640; step_loss: 0.1336
+step 8650; step_loss: 0.1134
+step 8660; step_loss: 0.0959
+step 8670; step_loss: 0.1087
+step 8680; step_loss: 0.0951
+step 8690; step_loss: 0.1288
+step 8700; step_loss: 0.1403
+step 8710; step_loss: 0.0962
+step 8720; step_loss: 0.1003
+step 8730; step_loss: 0.0872
+step 8740; step_loss: 0.1241
+step 8750; step_loss: 0.1497
+step 8760; step_loss: 0.1683
+step 8770; step_loss: 0.1070
+step 8780; step_loss: 0.1383
+step 8790; step_loss: 0.1360
+step 8800; step_loss: 0.0750
+step 8810; step_loss: 0.1084
+step 8820; step_loss: 0.1094
+step 8830; step_loss: 0.0897
+step 8840; step_loss: 0.1392
+step 8850; step_loss: 0.0929
+step 8860; step_loss: 0.1139
+step 8870; step_loss: 0.0791
+step 8880; step_loss: 0.0986
+step 8890; step_loss: 0.0938
+step 8900; step_loss: 0.1276
+step 8910; step_loss: 0.1124
+step 8920; step_loss: 0.1233
+step 8930; step_loss: 0.1826
+step 8940; step_loss: 0.0897
+step 8950; step_loss: 0.0905
+step 8960; step_loss: 0.1010
+step 8970; step_loss: 0.0862
+step 8980; step_loss: 0.1000
+step 8990; step_loss: 0.1061
+
+milliseconds     |    80 |   160 |   320 |   400 |   560 |  1000 |
+walking          | 0.300 | 0.469 | 0.695 | 0.793 | 0.971 | 1.420 |
+
+============================
+Global step:         9000
+Learning rate:       0.0005
+Step-time (ms):     37.6416
+Train loss avg:      0.1140
+--------------------------
+Val loss:            0.5477
+srnn loss:           0.3948
+============================
+
+Saving the model...
+done in 200.30 ms
+step 9000; step_loss: 0.1070
+step 9010; step_loss: 0.1156
+step 9020; step_loss: 0.1168
+step 9030; step_loss: 0.1187
+step 9040; step_loss: 0.0924
+step 9050; step_loss: 0.0922
+step 9060; step_loss: 0.0805
+step 9070; step_loss: 0.0925
+step 9080; step_loss: 0.1030
+step 9090; step_loss: 0.0874
+step 9100; step_loss: 0.1186
+step 9110; step_loss: 0.1051
+step 9120; step_loss: 0.1160
+step 9130; step_loss: 0.0990
+step 9140; step_loss: 0.1143
+step 9150; step_loss: 0.1303
+step 9160; step_loss: 0.0997
+step 9170; step_loss: 0.0960
+step 9180; step_loss: 0.0813
+step 9190; step_loss: 0.1290
+step 9200; step_loss: 0.0917
+step 9210; step_loss: 0.1085
+step 9220; step_loss: 0.1251
+step 9230; step_loss: 0.1259
+step 9240; step_loss: 0.1087
+step 9250; step_loss: 0.0757
+step 9260; step_loss: 0.0888
+step 9270; step_loss: 0.0952
+step 9280; step_loss: 0.1100
+step 9290; step_loss: 0.1239
+step 9300; step_loss: 0.1024
+step 9310; step_loss: 0.1114
+step 9320; step_loss: 0.1377
+step 9330; step_loss: 0.1058
+step 9340; step_loss: 0.1068
+step 9350; step_loss: 0.0788
+step 9360; step_loss: 0.1077
+step 9370; step_loss: 0.1050
+step 9380; step_loss: 0.1247
+step 9390; step_loss: 0.1058
+step 9400; step_loss: 0.0840
+step 9410; step_loss: 0.1042
+step 9420; step_loss: 0.0859
+step 9430; step_loss: 0.0952
+step 9440; step_loss: 0.1182
+step 9450; step_loss: 0.1286
+step 9460; step_loss: 0.1001
+step 9470; step_loss: 0.0981
+step 9480; step_loss: 0.1173
+step 9490; step_loss: 0.1014
+step 9500; step_loss: 0.1048
+step 9510; step_loss: 0.1169
+step 9520; step_loss: 0.1078
+step 9530; step_loss: 0.1143
+step 9540; step_loss: 0.1276
+step 9550; step_loss: 0.0876
+step 9560; step_loss: 0.1231
+step 9570; step_loss: 0.0943
+step 9580; step_loss: 0.1099
+step 9590; step_loss: 0.1357
+step 9600; step_loss: 0.1051
+step 9610; step_loss: 0.1463
+step 9620; step_loss: 0.0977
+step 9630; step_loss: 0.0977
+step 9640; step_loss: 0.1162
+step 9650; step_loss: 0.1259
+step 9660; step_loss: 0.1028
+step 9670; step_loss: 0.0824
+step 9680; step_loss: 0.1026
+step 9690; step_loss: 0.1087
+step 9700; step_loss: 0.1024
+step 9710; step_loss: 0.1124
+step 9720; step_loss: 0.0787
+step 9730; step_loss: 0.0804
+step 9740; step_loss: 0.0777
+step 9750; step_loss: 0.0924
+step 9760; step_loss: 0.1113
+step 9770; step_loss: 0.0772
+step 9780; step_loss: 0.0979
+step 9790; step_loss: 0.0781
+step 9800; step_loss: 0.1283
+step 9810; step_loss: 0.1015
+step 9820; step_loss: 0.0964
+step 9830; step_loss: 0.1523
+step 9840; step_loss: 0.1211
+step 9850; step_loss: 0.1262
+step 9860; step_loss: 0.0794
+step 9870; step_loss: 0.0808
+step 9880; step_loss: 0.1169
+step 9890; step_loss: 0.1009
+step 9900; step_loss: 0.0830
+step 9910; step_loss: 0.0761
+step 9920; step_loss: 0.0904
+step 9930; step_loss: 0.1141
+step 9940; step_loss: 0.0785
+step 9950; step_loss: 0.0908
+step 9960; step_loss: 0.1135
+step 9970; step_loss: 0.1475
+step 9980; step_loss: 0.0942
+step 9990; step_loss: 0.1335
+
+milliseconds     |    80 |   160 |   320 |   400 |   560 |  1000 |
+walking          | 0.298 | 0.462 | 0.690 | 0.796 | 0.956 | 1.312 |
+
+============================
+Global step:         10000
+Learning rate:       0.0005
+Step-time (ms):     37.5865
+Train loss avg:      0.1039
+--------------------------
+Val loss:            0.4454
+srnn loss:           0.3629
+============================

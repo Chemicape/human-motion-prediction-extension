@@ -10,6 +10,7 @@ import viz
 import time
 import copy
 import data_utils
+from matplotlib.animation import PillowWriter
 
 def fkl( angles, parent, offset, rotInd, expmapInd ):
   """
@@ -182,19 +183,30 @@ def main():
   ax = plt.gca(projection='3d')
   ob = viz.Ax3DPose(ax)
 
-  # Plot the conditioning ground truth
-  for i in range(nframes_gt):
-    ob.update( xyz_gt[i,:] )
-    plt.show(block=False)
-    fig.canvas.draw()
-    plt.pause(0.01)
+  def update_frame(frame):
+    if frame < nframes_gt:
+      ob.update(xyz_gt[frame, :])
+      ax.set_title("Ground Truth Conditioning")
+    else:
+      pred_frame = frame - nframes_gt
+      ob.update(xyz_pred[pred_frame, :], lcolor="#9b59b6", rcolor="#2ecc71")
+      ax.set_title("Prediction")
+    return []
 
-  # Plot the prediction
-  for i in range(nframes_pred):
-    ob.update( xyz_pred[i,:], lcolor="#9b59b6", rcolor="#2ecc71" )
-    plt.show(block=False)
-    fig.canvas.draw()
-    plt.pause(0.01)
+  total_frames = nframes_gt + nframes_pred
+
+  ani = animation.FuncAnimation(
+    fig,
+    update_frame,
+    frames=total_frames,
+    interval=80,
+    blit=False
+  )
+
+  ani.save("walking_prediction.gif", writer=PillowWriter(fps=12))
+  print("Saved GIF to walking_prediction.gif")
+
+  plt.show()
 
 
 if __name__ == '__main__':
